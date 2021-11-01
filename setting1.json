@@ -1,0 +1,98 @@
+{
+  "workbench.colorTheme": "Cobalt2",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.fontSize": 16,
+  "code-runner.runInTerminal": true,
+  "editor.mouseWheelZoom": true,
+  "tabnine.experimentalAutoImports": true,
+  "editor.tabSize": 2,
+  "files.autoSave": "off",
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+  "vetur.trace.server": "messages",
+  "editor.formatOnPaste": true,
+  "workbench.colorCustomizations": {
+    "terminal.foreground": "#00FD61",
+    "terminal.background": "#383737"
+  },
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "sonarlint.rules": {
+    "java:S106": {
+      "level": "off"
+    },
+    "javascript:S3358": {
+      "level": "off"
+    },
+    "javascript:S3776": {
+      "level": "off"
+    },
+    "Web:PageWithoutTitleCheck": {
+      "level": "off"
+    },
+    "javascript:S1117": {
+      "level": "off"
+    },
+    "javascript:S1125": {
+      "level": "off"
+    },
+    "Web:S5254": {
+      "level": "off"
+    },
+    "typescript:S125": {
+      "level": "off"
+    },
+    "javascript:S1226": {
+      "level": "off"
+    },
+    "typescript:S3923": {
+      "level": "off"
+    },
+    "typescript:S1788": {
+      "level": "off"
+    },
+    "typescript:S1301": {
+      "level": "off"
+    },
+    "typescript:S1871": {
+      "level": "off"
+    },
+    "typescript:S101": {
+      "level": "off"
+    },
+    "typescript:S1117": {
+      "level": "off"
+    },
+    "typescript:S4123": {
+      "level": "off"
+    },
+    "typescript:S905": {
+      "level": "off"
+    },
+    "typescript:S2681": {
+      "level": "off"
+    },
+    "typescript:S4325": {
+      "level": "off"
+    }
+  },
+  "workbench.iconTheme": "vscode-icons",
+  "editor.codeActionsOnSave": null,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.copyWithSyntaxHighlighting": false,
+  "mssql.connections": [
+    {
+      "server": "{{put-server-name-here}}",
+      "database": "{{put-database-name-here}}",
+      "user": "{{put-username-here}}",
+      "password": "{{put-password-here}}"
+    }
+  ],
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.fontFamily": "'Operator Mono Lig','cascadia Code','Dark Mono',Inconsolata,'Courier New',mono"
+}
